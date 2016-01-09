@@ -4,8 +4,8 @@
 <?php
 
 /**
- * i'm gonna to illustrate my examp using mysql database and php so,
-   first of all wee need to create procedures to being our data from the database
+ * i'm gonna to illustrate my examp using mysql database and php, so
+   first of all wee need to create procedures to bring our data from the database
 
 
 CREATE DEFINER=`root`@`localhost` PROCEDURE `getUserDocuments`(in p_name varchar(200),in p_limit int)
