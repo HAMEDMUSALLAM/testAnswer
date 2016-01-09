@@ -4,21 +4,21 @@
 <?php
 
 /**
- * i'm gonna to illustrate my examp using mysql database and php, so
-   first of all wee need to create procedures to bring our data from the database
-
-
-CREATE DEFINER=`root`@`localhost` PROCEDURE `getUserDocuments`(in p_name varchar(200),in p_limit int)
-BEGIN
-
-set @statment = concat("
-SELECT * FROM building_map WHERE map_name = '%",p_name,"%'"," LIMIT ", p_limit);
-
-prepare stat from @statment;
-execute stat;
-deallocate prepare stat;
-
-END
+ *i'm gonna to illustrate my examp using mysql database and php, so
+ *  first of all wee need to create procedures to bring our data from the database
+*
+*
+*CREATE DEFINER=`root`@`localhost` PROCEDURE `getUserDocuments`(in p_name varchar(200),in p_limit int)
+*BEGIN
+*
+*set @statment = concat("
+*SELECT * FROM document WHERE name = '",name,"'"," LIMIT ", p_limit);
+*
+*prepare stat from @statment;
+*execute stat;
+*deallocate prepare stat;
+*
+*END
  * 
  */
 ////////////////////////////////////////////////////////////////////////////
