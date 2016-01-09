@@ -26,7 +26,7 @@ END
 
 /**
  * important Notes : 
- * 1- this example i illustrate it with pure php code, but it's better to user php with
+ * 1- this example i illustrate it with pure php code, but it's better to use php with
  *     codeIgniter or laravel.
  * 2- i can use oracle database instead of mysql if the system is sensitive.
  */
